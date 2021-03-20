@@ -1,0 +1,280 @@
+    1  man
+    2  mkdir reactfir
+    3  cd reactfir
+    4  cd..
+    5  cd ..
+    6  cd reactfir
+    7  cat > test.txt
+    8  cat test.txt
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd reactfir
+   13  touch test1.txt test2.txt
+   14  ls
+   15  cat > test1.txt
+   16  cat test1.txt
+   17  pwd
+   18  vi test1.txt
+   19  ls
+   20  apt list --upgradable
+   21  sudo apt update
+   22  git --version
+   23  apt update
+   24  sudo add-apt-repository ppa:git-core/ppa
+   25  apt update
+   26  apt install git
+   27  y
+   28  git --version
+   29  git config --user.email
+   30  git config --user.name
+   31  git config --list
+   32  git --get
+   33  git --global
+   34  git config user.email
+   35  git config --global user.name "elavarasan"
+   36  git config --global user.email "elavarasan@bititude.com"
+   37  git config --global user.name "elavarasan-bititude"
+   38  git config 
+   39  git config user.email
+   40  git config --user.name
+   41  git config user.name
+   42  git *
+   43  man git log
+   44  git init
+   45  git add Rename.md
+   46  git add RENAME.md
+   47  git add README.md
+   48  touch README.md
+   49  git add README.md
+   50  git commit -m "first commit"
+   51  git remote add origin git@github.com:elavarasan-bititude/git tutorials.git
+   52  git push -u origin master
+   53  git create git tutorials
+   54  git --help
+   55  git init
+   56  git add README.md
+   57  git commit -m "first commit"
+   58  git branch -M main
+   59  git remote add origin git@github.com:elavarasan-bititude/git tutorials.git
+   60  git push -u origin master
+   61  git remote add origin https://github.com/elavarasan-bititude/git tutorials.git
+   62  git push -u origin main
+   63  git remote add origin https://github.com/elavarasan-bititude/git-tutorials.git
+   64  git push -u origin master
+   65  git push -u origin main
+   66  git pull --rebase origin main
+   67  git push -u origin main
+   68  touch good.txt
+   69  cat >good.txt
+   70  git git add good.txt
+   71  git add good.txt
+   72  git log
+   73  git push -u origin main
+   74  git log
+   75  git add good.txt
+   76  git commit -m "first commit"
+   77  git log
+   78  git push -u origin main
+   79  git log
+   80  vi good.txt
+   81  nano good.txt
+   82  vi good.txt
+   83  git add good.txt
+   84  git push -u origin main
+   85  git log --graph
+   86  git rm good.txt
+   87  git log
+   88  git log --graph
+   89  git rm good.txt
+   90  ls
+   91  git clone https://github.com/elavarasan-bititude/git-tutorials.git
+   92  git rm good.txt
+   93  mkdir notes
+   94  cd notes
+   95  touch website.doc linux.doc
+   96  vi website.doc 
+   97  vi linux.doc 
+   98  git init
+   99  git status
+  100  git add .
+  101  git status
+  102  git commit -m "notes"
+  103  git push -u origin main
+  104  git remote add origin https://github.com/elavarasan-bititude/git-tutorials.git
+  105  git push -u origin main
+  106  git pull --rebase origin main
+  107  git remote add origin https://github.com/elavarasan-bititude/git-tutorials.git
+  108  git push -u origin main
+  109  git push origin main
+  110  gir branch -M main
+  111  git branch -M main
+  112  git push -u origin main
+  113  git status
+  114  git log --graph
+  115  history
+  116  cd ..
+  117  mkdir duplicate
+  118  ls
+  119  cd git-tutorials/
+  120  ls
+  121  cd ..
+  122  cd duplicate/
+  123  cd ..
+  124  cd notes
+  125  ls
+  126  cd ..
+  127  ls
+  128  cd shirley
+  129  ls
+  130  cd duplicate/
+  131  git clone https://github.com/elavarasan-bititude/git-tutorials.git
+  132  ls
+  133  cd git-tutorials/
+  134  ls
+  135  cd..
+  136  vi good.txt 
+  137  git diff
+  138  git status
+  139  git add -a
+  140  git add -A
+  141  git status
+  142  git commit -m "second updates"
+  143  git pull origin main
+  144  git push origin main
+  145  git branch subnotes
+  146  git branch
+  147  git checkout subnotes
+  148  git branch
+  149  vi good.txt
+  150  git status
+  151  git add -A
+  152  git commit -m "sub updates"
+  153  git push origin subnotes
+  154  git branch
+  155  git branch -A
+  156  git branch -a
+  157  git checkout main
+  158  git pull origin main
+  159  git branch --merged
+  160  git merge subnotes
+  161  git push origin main
+  162  git branch --merged
+  163  git branch -d subnotes
+  164  git branch
+  165  git branch -a
+  166  git push origin --delete subnotes
+  167  git status
+  168  emacs good.txt 
+  169  cd //
+  170  cd /
+  171  cd ..
+  172  cd
+  173  cd r
+  174  cd root
+  175  cd r
+  176  sudo apt install libreoffice
+  177  ls
+  178  cd react/
+  179  ls
+  180  lowriter
+  181  lowritter sample.txt
+  182  lowriter sample.txt
+  183  libreoffice --help
+  184  --writer
+  185  libre --writer
+  186  libreoffice --version
+  187  soffice
+  188  libreoffice --writer file.txt
+  189  cd ..
+  190  cd duplicate
+  191  ls
+  192  cd git-tutorials/
+  193  ls
+  194  lowriter linux.doc
+  195  libreoffice 
+  196  libreoffice --writer
+  197  git --version
+  198  ls
+  199  sudo apt update && sudo apt -y upgrade
+  200  sudo apt-get purge xrdp
+  201  sudo apt install -y xrdp
+  202  sudo apt install -y xfce4
+  203  sudo apt install -y xfce4-goodies
+  204  sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
+  205  sudo sed -i ‘s/3389/3390/g’ /etc/xrdp/xrdp.ini
+  206  sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
+  207  sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
+  208  sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
+  209  echo xfce4-session > ~/.xsession
+  210  sudo nano /etc/xrdp/startwm.sh
+  211  sudo /etc/init.d/xrdp start
+  212  history
+  213  sudo /etc/init.d/xrdp start
+  214  xfce4-session-logout -s
+  215  sudo /etc/init.d/xrdp start
+  216  echo $DISPLAY
+  217  sudo /etc/init.d/xrdp start
+  218  git --version
+  219  ls
+  220  cd notes
+  221  ls
+  222  vi good.txt
+  223  ls
+  224  mkdir git progess
+  225  cd git progess
+  226  ls
+  227  rmdir -i  git progess
+  228  rmdir git progess
+  229  mkdir git-progress
+  230  ls
+  231  git init
+  232  git add git-progress
+  233  git status
+  234  git add git-progress
+  235  git commit -m "second commit"
+  236  git status
+  237  git branch -M
+  238  git push origin main
+  239  git pull origin main
+  240  git push origin main
+  241  git rebase main
+  242  git pull --rebase origin main
+  243  git push origin main
+  244  git init
+  245  git add git-progress
+  246  git commit -m "tests"
+  247  git remote origin https://github.com/elavarasan-bititude/git-tests.git
+  248  git remote https://github.com/elavarasan-bititude/git-tests.git
+  249  git add remote https://github.com/elavarasan-bititude/git-tests.git
+  250  git remote add origin https://github.com/elavarasan-bititude/git-tests.git
+  251  rm remote origin
+  252  rm remote origin main
+  253  git remote set-url  https://github.com/elavarasan-bititude/git-tests.git
+  254  git rm remote origin
+  255  git remote rm origin
+  256  git remote add origin https://github.com/elavarasan-bititude/git-tests.git
+  257  git status
+  258  git add git-progress
+  259  git commit -m "tests"
+  260  cd git-progress/
+  261  git init
+  262  vi vishali.doc
+  263  lowriter vishali.doc 
+  264  git push origin main
+  265  vi vishali.doc 
+  266  git init
+  267  git add vishali.doc 
+  268  git commit -m "tests"
+  269  git status
+  270  git push origin main
+  271  git remote add origin https://github.com/elavarasan-bititude/git-tests.git
+  272  git push origin main
+  273  git push -u origin master
+  274  git branch - M
+  275  git status
+  276  git log
+  277  git branch -m master main
+  278  git push origin main
+  279  git status
+  280  history > history.txt
